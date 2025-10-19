@@ -1,0 +1,237 @@
+,country,country_total_sales
+0,korea,64771.53
+1,thailand,52583.55
+2,oman,51606.97
+3,zambia,50189.38
+4,tunisia,48013.29
+5,bouvet island (bouvetoya),47968.32
+6,bermuda,47948.92
+7,united kingdom,47726.87
+8,french guiana,45989.27
+9,france,44480.41
+10,marshall islands,44001.11
+11,aruba,43921.85
+12,indonesia,43591.73
+13,saint helena,43011.84
+14,botswana,41603.46
+15,lao people's democratic republic,40735.44
+16,congo,39668.81
+17,angola,38095.91
+18,cambodia,37670.96
+19,seychelles,37325.48
+20,china,37205.44
+21,sierra leone,36514.35
+22,argentina,36431.54
+23,cyprus,35831.81
+24,burundi,35780.38
+25,martinique,35399.22
+26,el salvador,35249.93
+27,liberia,35116.6
+28,cote d'ivoire,34988.35
+29,malaysia,34657.97
+30,senegal,34238.78
+31,san marino,34159.6
+32,kazakhstan,34113.52
+33,india,33988.68
+34,montserrat,33923.89
+35,cuba,33893.63
+36,afghanistan,33858.51
+37,sao tome and principe,33800.3
+38,germany,33676.04
+39,south georgia and the south sandwich islands,33645.47
+40,somalia,33491.62
+41,united states of america,33401.67
+42,sri lanka,33220.38
+43,mongolia,33095.46
+44,south africa,32885.83
+45,iran,32715.81
+46,qatar,32540.06
+47,lebanon,32535.18
+48,bhutan,32486.12
+49,lesotho,32031.66
+50,guam,31858.1
+51,djibouti,31801.6
+52,kyrgyz republic,31486.21
+53,kuwait,30804.81
+54,nauru,30325.19
+55,malawi,30099.09
+56,guyana,29969.13
+57,saudi arabia,29793.81
+58,guatemala,29783.86
+59,switzerland,29647.57
+60,venezuela,29488.62
+61,british indian ocean territory (chagos archipelago),29291.25
+62,monaco,29043.2
+63,guinea-bissau,28884.12
+64,vanuatu,28883.16
+65,tanzania,28444.01
+66,liechtenstein,28418.68
+67,burkina faso,28330.09
+68,estonia,27999.55
+69,chad,27967.53
+70,maldives,27967.22
+71,lithuania,27700.99
+72,cook islands,27440.55
+73,guadeloupe,27160.48
+74,serbia,27053.82
+75,sweden,27009.5
+76,saint barthelemy,26640.42
+77,brunei darussalam,26457.75
+78,latvia,26450.99
+79,mexico,26310.05
+80,greece,26157.76
+81,yemen,25614.39
+82,spain,25180.34
+83,belarus,24558.88
+84,nicaragua,24422.62
+85,north macedonia,24315.55
+86,french polynesia,24289.69
+87,guinea,23961.05
+88,saint martin,23950.85
+89,canada,23950.06
+90,jersey,23862.38
+91,taiwan,23790.46
+92,gibraltar,23527.8
+93,czech republic,23488.92
+94,british virgin islands,23410.59
+95,tokelau,23225.37
+96,united states minor outlying islands,23168.8
+97,heard island and mcdonald islands,23156.79
+98,faroe islands,22945.94
+99,chile,22732.78
+100,turkmenistan,22536.42
+101,ecuador,21623.72
+102,christmas island,21508.68
+103,comoros,21417.36
+104,philippines,21365.76
+105,norway,21233.67
+106,new zealand,21225.04
+107,mayotte,21171.39
+108,pitcairn islands,21145.45
+109,samoa,20753.66
+110,paraguay,20261.36
+111,ukraine,20162.59
+112,syrian arab republic,19850.08
+113,costa rica,19694.38
+114,japan,19325.85
+115,tuvalu,19297.37
+116,macao,19223.7
+117,mozambique,18991.06
+118,ethiopia,18812.33
+119,hong kong,18755.98
+120,bulgaria,18720.2
+121,honduras,18659.43
+122,denmark,18642.27
+123,puerto rico,18468.99
+124,swaziland,18222.83
+125,romania,18145.48
+126,namibia,18048.26
+127,new caledonia,17909.07
+128,netherlands antilles,17852.63
+129,mauritius,17789.59
+130,sudan,17692.21
+131,brazil,17413.88
+132,niue,17371.08
+133,haiti,17159.93
+134,zimbabwe,17058.58
+135,guernsey,17037.84
+136,portugal,16910.87
+137,anguilla,16899.31
+138,finland,16662.65
+139,austria,16513.15
+140,cocos (keeling) islands,16220.31
+141,israel,15715.35
+142,greenland,15704.6
+143,reunion,15685.93
+144,vietnam,15583.52
+145,niger,15547.89
+146,saint pierre and miquelon,15338.97
+147,egypt,15264.26
+148,trinidad and tobago,15120.95
+149,palestinian territory,15051.22
+150,grenada,15025.22
+151,turks and caicos islands,15015.0
+152,papua new guinea,14991.79
+153,micronesia,14885.22
+154,nigeria,14755.48
+155,cayman islands,14610.08
+156,uruguay,14261.75
+157,montenegro,13591.12
+158,albania,13517.56
+159,wallis and futuna,13469.35
+160,central african republic,13456.25
+161,ghana,13341.09
+162,tonga,13250.89
+163,singapore,13247.88
+164,andorra,12972.68
+165,algeria,12900.87
+166,antarctica (the territory south of 60 deg s),12747.88
+167,jamaica,12723.37
+168,iraq,12687.52
+169,azerbaijan,12650.18
+170,isle of man,12615.86
+171,panama,12557.82
+172,luxembourg,12471.55
+173,slovenia,12125.74
+174,australia,12006.96
+175,bolivia,11969.68
+176,myanmar,11953.04
+177,bangladesh,11700.22
+178,malta,11569.34
+179,united states virgin islands,11339.06
+180,libyan arab jamahiriya,11215.46
+181,bosnia and herzegovina,10896.99
+182,nepal,10878.58
+183,mauritania,10382.22
+184,barbados,10124.2
+185,solomon islands,9874.46
+186,italy,9783.96
+187,suriname,8932.49
+188,saint kitts and nevis,8661.61
+189,western sahara,8601.8
+190,gabon,8554.0
+191,svalbard & jan mayen islands,8422.38
+192,russian federation,8369.78
+193,northern mariana islands,8321.31
+194,uzbekistan,8315.19
+195,poland,8165.74
+196,bahrain,7994.66
+197,georgia,7691.97
+198,timor-leste,7575.67
+199,pakistan,7534.74
+200,jordan,7365.72
+201,kenya,7247.61
+202,fiji,7232.17
+203,peru,7028.51
+204,palau,6776.7
+205,bahamas,6684.01
+206,moldova,6681.4
+207,mali,6267.15
+208,belgium,6142.03
+209,norfolk island,6048.0
+210,saint lucia,5998.64
+211,togo,5972.55
+212,colombia,5963.66
+213,croatia,5745.94
+214,cameroon,5403.58
+215,gambia,5359.22
+216,rwanda,5320.98
+217,madagascar,5230.63
+218,hungary,4833.97
+219,uganda,4783.64
+220,ireland,4763.88
+221,falkland islands (malvinas),4652.95
+222,netherlands,4646.01
+223,american samoa,4483.04
+224,turkey,4173.7
+225,kiribati,3624.57
+226,united arab emirates,3516.88
+227,french southern territories,3503.83
+228,armenia,3487.39
+229,morocco,3439.25
+230,iceland,3191.49
+231,benin,2589.42
+232,saint vincent and the grenadines,2576.62
+233,dominica,2150.77
+234,slovakia (slovak republic),1092.87
+235,eritrea,861.48
