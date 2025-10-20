@@ -333,8 +333,8 @@ if __name__ == "__main__":
     spark = None # Initialize spark to None
     try:
         spark = initialize_spark_session()
-        input_data_path = "./"  # Assuming CSVs are in the same directory
-        output_data_path = "./output_data_csv_3"
+        input_data_path = "data/raw/"  
+        output_data_path = "./output"
 
         # 1. Load Raw Data
         customers_df, products_df, orders_df, order_items_df = load_data(spark, input_data_path)
@@ -353,4 +353,5 @@ if __name__ == "__main__":
     finally:
         if spark:
             spark.stop()
+
             print("\nSpark Session Stopped.")
