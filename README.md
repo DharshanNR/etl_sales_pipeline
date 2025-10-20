@@ -6,7 +6,7 @@ This repository contains a comprehensive ETL (Extract, Transform, Load) pipeline
 
 1.  [Project Overview](#project-overview)
 2.  [Data Generation](#data-generation)
-3.  [ETL Pipeline (`etl_pipeline.py`)](#etl-pipeline-etl_pipelinepy)
+3.  [ETL Pipeline (`etl_pipeline.py`)](#etl-pipeline-etl_pipeline.py)
     *   [Features](#features)
     *   [Data Sources](#data-sources)
     *   [Output](#output)
@@ -43,7 +43,7 @@ The `generate_data.py` script creates the following CSV files:
     ```
     This will create the necessary CSV files in the current directory.
 
-## 3. ETL Pipeline (`etl_pipeline.py`)
+### 3. ETL Pipeline (`etl_pipeline.py`)
 
 The `etl_pipeline.py` script is the core of this project. It performs the following steps:
 
