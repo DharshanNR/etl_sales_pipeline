@@ -10,11 +10,11 @@ This repository contains a comprehensive ETL (Extract, Transform, Load) pipeline
     *   [Features](#features)
     *   [Data Sources](#data-sources)
     *   [Output](#output)
-4.  [Setup and Installation](#setup-and-installation)
-5.  [How to Run](#how-to-run)
-6.  [Code Structure](#code-structure)
-7.  [Dependencies](#dependencies)
-8.  [License](#license)
+4.  [Setup and Installation](#4-setup-and-installation)
+5.  [How to Run](#5-how-to-run)
+6.  [Code Structure](#6-code-structure)
+7.  [Dependencies](#7-dependencies)
+8.  [License](#8-license)
 
 ## 1. Project Overview
 
@@ -135,4 +135,4 @@ The processed data and aggregated results are stored in Parquet format in the `o
 
 ## 8. License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source.
