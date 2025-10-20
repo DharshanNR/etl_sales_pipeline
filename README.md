@@ -4,7 +4,7 @@ This repository contains a comprehensive ETL (Extract, Transform, Load) pipeline
 
 ## Table of Contents
 
-1.  [Project Overview](#project-overview)
+1.  [Project Overview](#1-project-overview)
 2.  [Data Generation](#data-generation)
 3.  [ETL Pipeline (`etl_pipeline.py`)](#3-etl-pipeline-etl_pipelinepy)
     *   [Features](#features)
