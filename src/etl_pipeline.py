@@ -48,7 +48,7 @@ def load_data(spark, input_path):
     """
     print(f"\n--- Loading Data from {input_path} ---")
 
-    # Define schemas for better control and performance
+    
     # customers.csv: customer_id (string), first_name (string), last_name (string), email (string), country (string)
     customers_schema = StructType([
         StructField("customer_id", StringType(), True),
@@ -70,7 +70,7 @@ def load_data(spark, input_path):
     orders_schema = StructType([
         StructField("order_id", StringType(), True),
         StructField("customer_id", StringType(), True),
-        StructField("order_date", StringType(), True), # Read as string first for flexible parsing
+        StructField("order_date", StringType(), True), 
         StructField("total_amount", DoubleType(), True),
         StructField("status", StringType(), True),
     ])
@@ -175,7 +175,7 @@ def clean_and_transform_data(customers_df, products_df, orders_df, order_items_d
     fact_df = fact_df.filter(col("total_amount") > 0)
     print(f"Filtered out orders with total_amount <= 0. Remaining rows: {fact_df.count()}")
 
-    # --- Standardize Data (Optional) ---
+    
     # Convert text fields to lowercase, trim whitespace
     fact_df = fact_df.withColumn("product_name", lower(trim(col("product_name"))))
     fact_df = fact_df.withColumn("category", lower(trim(col("category"))))
@@ -237,8 +237,8 @@ def perform_analysis(fact_df):
     monthly_sales.show(5)
 
     # Average Order Value (AOV)
-    # Note: AOV is typically calculated per order, not per item in the fact table.
-    # We need to group by order_id first to get order total, then average those.
+    
+    
     order_totals_df = fact_df.groupBy("order_id").agg(round(sum("item_total"), 2).alias("order_total"))
     aov = order_totals_df.agg(round(avg("order_total"), 2).alias("average_order_value"))
     print("\nAverage Order Value (AOV):")
@@ -251,7 +251,7 @@ def perform_analysis(fact_df):
     print("\nSales by Country:")
     sales_by_country.show(5)
 
-    # --- Window Functions (Advanced) ---
+    
 
     # Running Totals of Sales by Date
     window_spec_date = Window.orderBy(to_date(col("sale_date")))
@@ -272,7 +272,7 @@ def perform_analysis(fact_df):
     print("\nTop 3 Products within Each Category by Sales:")
     ranked_products_in_category.show(10, truncate=False)
 
-    # Example: Sales growth month-over-month
+    
     window_spec_monthly = Window.orderBy("order_year", "order_month")
     monthly_sales_with_lag = monthly_sales.withColumn("prev_month_sales", lag("monthly_sales", 1).over(window_spec_monthly)) \
                                           .withColumn("mom_growth_percent",
@@ -294,7 +294,7 @@ def perform_analysis(fact_df):
     }
 
 
-# --- 5. Data Storage (PySpark to Parquet) ---
+# --- 5. Data Storage (PySpark to csv ) ---
 def store_processed_data(fact_df, analysis_results, output_path):
     """
     Stores the cleaned, transformed, and aggregated DataFrames into CSV format.
@@ -308,19 +308,11 @@ def store_processed_data(fact_df, analysis_results, output_path):
     # Store the main fact table
     fact_table_output_dir = os.path.join(output_path, "fact_table_csv")
     print(f"Storing fact_table.csv to {fact_table_output_dir}...")
-    # For CSV, Spark writes multiple part files. We'll write to a subdirectory.
+    
     fact_df.toPandas().to_csv(fact_table_output_dir, index=True,mode='w')
-    #fact_df.repartition(1).write.mode("overwrite").csv(fact_table_output_dir, header=True)
+    
 
-    # Store partitioned fact table (example: by year and month)
-    # Note: Partitioning for CSV in Spark creates subdirectories for each partition key.
-    #partitioned_fact_table_output_dir = os.path.join(output_path, "fact_table_partitioned_csv")
-    #print(f"Storing fact_table_partitioned.csv to {partitioned_fact_table_output_dir} (partitioned by order_year, order_month)...")
-    #fact_df.write.mode("overwrite").partitionBy("order_year", "order_month").csv(
-     #   partitioned_fact_table_output_dir, header=True
-    #)'''
-
-    # Store aggregated results
+  
     for name, df in analysis_results.items():
         aggregated_output_dir = os.path.join(output_path, f"{name}_csv")
         print(f"Storing {name}.csv to {aggregated_output_dir}...")
@@ -355,3 +347,4 @@ if __name__ == "__main__":
             spark.stop()
 
             print("\nSpark Session Stopped.")
+
