@@ -18,7 +18,7 @@ This repository contains a comprehensive ETL (Extract, Transform, Load) pipeline
 
 ## 1. Project Overview
 
-This project demonstrates an end-to-end data processing workflow for e-commerce sales data using Apache Spark with its Python API, PySpark. It's designed to take raw CSV data, clean and transform it, derive meaningful insights through aggregations and advanced analytics (like window functions), and finally store the processed data in an optimized format (Parquet) for downstream consumption.
+This project demonstrates an end-to-end data processing workflow for e-commerce sales data using Apache Spark with its Python API, PySpark. It's designed to take raw CSV data, clean and transform it, derive meaningful insights through aggregations and advanced analytics (like window functions), and finally store the processed data in CSV file for downstream consumption.
 
 ## 2. Data Generation
 
